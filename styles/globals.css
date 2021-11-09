@@ -14,3 +14,60 @@ a {
 * {
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+}
+
+.banner {
+  height: 300px;
+  padding: 70px 100px !important;
+}
+
+.nav-content {
+  padding: 5px 100px;
+  box-shadow: 0px 3px 5px grey;
+}
+
+.bg-grad {
+  background-color: rgb(38, 231, 189);
+}
+
+.bg-foot {
+  background-color: darkgray;
+}
+.bg-foot-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.vendor-content {
+  display: flex;
+  padding: 4% 20%;
+  background-color: lavender;
+  justify-content: center;
+}
+.vendor-text {
+  align-self: center;
+}
+.product-grid {
+  min-height: 79vh;
+}
+.product-values {
+  margin-left: 5%;
+}
+@media only screen and (max-width: 768px) {
+  .vendor-content {
+    flex-direction: column;
+    padding: 2% 10% !important;
+  }
+  .nav-content {
+    padding: 5px 50px;
+  }
+  .product-values {
+    margin-top: 5%;
+  }
+  .banner {
+    padding: 15% !important;
+  }
+}

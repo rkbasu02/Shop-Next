@@ -43,7 +43,7 @@ export default function Home({ products, vendors }) {
           <ul>
             {newVendors.map((vendor) => {
               return (
-                <li>
+                <li key={vendor.id}>
                   <h3>{vendor.title}</h3>
                 </li>
               );

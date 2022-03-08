@@ -38,7 +38,7 @@ export default function Home({ products, vendors }) {
       <div className="jumbotron fluid">
         <div className="container-fluid vendor-content">
           <h4 className="vendor-text">
-            Wide options of vendors to choose from
+            Wide options of vendors to choose from here
           </h4>
           <ul>
             {newVendors.map((vendor) => {
